@@ -23,3 +23,6 @@ akibatnya setiap baris menampilkan N + 1 bintang, karena loop dimulai dari 0 buk
 3. Jadi, apakah perbedaan kegunaan antara perulangan luar dengan perulangan yang berada di dalamnya?
 Jawab:
 Perulangan luar (iOuter) digunakan untuk mengatur jumlah baris bintang yang dicetak sedangkan perulangan dalam (i) digunakan untuk mengatur jumlah bintang per baris(jumlah kolom)
+4. Mengapa perlu ditambahkan sintaks System.out.println(); di bawah perulangan dalam? apa akibatnya jika sintaks tersebut dihilangkan?
+Jawab:
+Karena System.out.println(); digunakan untuk pindah baris baru setelah satu baris bintang selesai dicetak, jika sintaks tersebut dihilangkan akibatnya semua bintang akan dicetak dalam satu baris tanpa berpindah baris
