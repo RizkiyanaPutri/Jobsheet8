@@ -17,3 +17,6 @@ akibatnya perulangan akan menjadi infinite loop karena i dimulai dari 1 dan loop
 1. Perhatikan perulangan luar. Jika pada sintaks for, inisialisasi iOuter=1 diubah menjadi iOuter=0, apa akibatnya? mengapa bisa demikian?
 Jawab:
 akibatnya perulangan luar berjalan 1 kali lebih banyak, jadi baris bintang yang dicetak menjadi N+1 baris, karena perulangan dimulai dari 0 bukan dari 1
+2. Perhatikan perulangan dalam, jika pada sintaks for, inisialisasi i=1 diubah menjadi i=0, apa akibatnya? mengapa bisa demikian?
+Jawab:
+akibatnya setiap baris menampilkan N + 1 bintang, karena loop dimulai dari 0 bukan dari 1
