@@ -12,3 +12,8 @@ akibatnya perulangan tidak akan berjalan sama sekali karena nilai awal i = 1 dan
 Jawab:
 akibatnya perulangan akan menjadi infinite loop karena i dimulai dari 1 dan loop berjalan selama i <= N 
 (i tidak akan pernah menjadi lebih besar dari N karena i-- membuat nilai i semakin kecil: 1 -> 0 -> -1 ..)
+
+#Pertanyaan Percobaan 2#
+1. Perhatikan perulangan luar. Jika pada sintaks for, inisialisasi iOuter=1 diubah menjadi iOuter=0, apa akibatnya? mengapa bisa demikian?
+Jawab:
+akibatnya perulangan luar berjalan 1 kali lebih banyak, jadi baris bintang yang dicetak menjadi N+1 baris, karena perulangan dimulai dari 0 bukan dari 1
