@@ -20,3 +20,6 @@ akibatnya perulangan luar berjalan 1 kali lebih banyak, jadi baris bintang yang 
 2. Perhatikan perulangan dalam, jika pada sintaks for, inisialisasi i=1 diubah menjadi i=0, apa akibatnya? mengapa bisa demikian?
 Jawab:
 akibatnya setiap baris menampilkan N + 1 bintang, karena loop dimulai dari 0 bukan dari 1
+3. Jadi, apakah perbedaan kegunaan antara perulangan luar dengan perulangan yang berada di dalamnya?
+Jawab:
+Perulangan luar (iOuter) digunakan untuk mengatur jumlah baris bintang yang dicetak sedangkan perulangan dalam (i) digunakan untuk mengatur jumlah bintang per baris(jumlah kolom)
