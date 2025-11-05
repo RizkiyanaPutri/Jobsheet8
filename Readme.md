@@ -26,3 +26,14 @@ Perulangan luar (iOuter) digunakan untuk mengatur jumlah baris bintang yang dice
 4. Mengapa perlu ditambahkan sintaks System.out.println(); di bawah perulangan dalam? apa akibatnya jika sintaks tersebut dihilangkan?
 Jawab:
 Karena System.out.println(); digunakan untuk pindah baris baru setelah satu baris bintang selesai dicetak, jika sintaks tersebut dihilangkan akibatnya semua bintang akan dicetak dalam satu baris tanpa berpindah baris
+
+#Pertanyaan Percobaan 3#
+1. Perhatikan, apakah output yang dihasilkan dengan nilai N = 5 sesuai dengan tampilan berikut?
+Jawab:
+Tidak
+2. Jika tidak sesuai bagian mana saja yang harus diperbaiki/ditambahkan? Jelaskan setiap bagian yang perlu diperbaiki/ditambahkan!
+Jawab:
+Bagian yang perlu diperbaiki adalah:
+>i++ yang terletak di luar while utama dipindahkan ke dalam while utama agar tidak terjadi infinite loop
+>ditambahkan sintaks System.out.println() untuk pindah baris, jika tidak maka output hanya sebaris bintang dan tidak berbentuk segitiga
+>diperbarui bagian i = 0 menjadi i = 1 agar baris pertama tidak kosong
